@@ -12,6 +12,7 @@ import (
 	"go.opentelemetry.io/otel/trace"
 )
 
+
 func NewTracer(svcName, jaegerEndpoint string) (trace.Tracer, error) {
 	// create jaeger exporter
 	exporter, err := jaeger.New(jaeger.WithCollectorEndpoint(jaeger.WithEndpoint(jaegerEndpoint)))
