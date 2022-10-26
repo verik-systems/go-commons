@@ -1,4 +1,4 @@
-module github.com/verik-systems/go-node-commons/otelchi
+module github.com/verik-systems/go-commons/otelchi
 
 go 1.19
 

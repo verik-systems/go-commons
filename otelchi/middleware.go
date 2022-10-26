@@ -16,7 +16,7 @@ import (
 )
 
 const (
-	tracerName = "github.com/verik-systems/go-node-commons/otelchi"
+	tracerName = "github.com/verik-systems/go-commons/otelchi"
 )
 
 // Middleware sets up a handler to start tracing the incoming
